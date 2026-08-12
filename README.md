@@ -27,23 +27,23 @@ The framework consists of four main stages:
     relative permittivity, electrical conductivity, and layer depth.
 5. **Performance evaluation:** The trained model is directly evaluated using
     real-world GPR measurements to assess its zero-shot generalization capability
-    using the correlation coefficient ($R$), bias, mean squared error (MSE),
+    based on the correlation coefficient ($R$), bias, mean squared error (MSE),
     root mean squared error (RMSE), and unbiased root mean squared error (ubRMSE).
 
 ## Repository Contents
 
--   `DataGeneration.ipynb` --- Synthetic GPR data generation using
+-   `DataGeneration.ipynb` — Synthetic GPR data generation using
     gprMax.
--   `CNN.ipynb` --- 1D CNN baseline model.
--   `DANN.ipynb` --- Domain-Adversarial Neural Network (DANN) baseline
+-   `CNN.ipynb` — 1D CNN baseline model.
+-   `DANN.ipynb` — Domain-Adversarial Neural Network (DANN) baseline
     model.
--   `LSTM.ipynb` --- LSTM baseline model.
--   `PatchTST.ipynb` --- PatchTST training and evaluation workflow.
--   `PatchTST_Code/` --- Source code for the PatchTST architecture and
+-   `LSTM.ipynb` — LSTM baseline model.
+-   `PatchTST.ipynb` — PatchTST training and evaluation workflow.
+-   `PatchTST_Code/` — Source code for the PatchTST architecture and
     associated modules.
--   `1_layer_TEST_ExpData.xlsx` --- Experimental GPR data for the
+-   `1_layer_TEST_ExpData.xlsx` — Experimental GPR data for the
     laboratory single-layer material.
--   `Framework_Overview.jpg` --- Overview of the proposed framework.
+-   `Framework_Overview.jpg` — Overview of the proposed framework.
 
 ## Models
 
