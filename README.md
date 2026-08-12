@@ -22,12 +22,13 @@ The framework consists of four main stages:
 2.  **Data preprocessing:** GPR signals and corresponding
     material-property labels are normalized before model training and
     evaluation.
-3.  **Zero-shot PatchTST learning:** PatchTST is trained using synthetic
-    GPR data to estimate subsurface material parameters, including
+3.  **Zero-shot PatchTST learning:** PatchTST is trained exclusively on
+    synthetic GPR data to estimate subsurface material parameters, including
     relative permittivity, electrical conductivity, and layer depth.
-4.  **Performance evaluation:** The trained model is directly evaluated
-    using real-world GPR measurements to assess its zero-shot
-    generalization capability.
+5. **Performance evaluation:** The trained model is directly evaluated using
+    real-world GPR measurements to assess its zero-shot generalization capability
+    using the correlation coefficient ($R$), bias, mean squared error (MSE),
+    root mean squared error (RMSE), and unbiased root mean squared error (ubRMSE).
 
 ## Repository Contents
 
@@ -61,7 +62,7 @@ Four machine-learning models are provided:
 ## Synthetic Data Generation
 
 Synthetic GPR data are generated using the finite-difference time-domain
-(FDTD) method implemented in **gprMax**. The data-generation workflow is
+(FDTD) method implemented in **gprMax**. The data-generation code is
 provided in `DataGeneration.ipynb`.
 
 ## Experimental Data
@@ -101,7 +102,10 @@ Full bibliographic information will be added upon publication.
 
 ## Contact
 
-**Zixin Wang, Ph.D.**\
-Postdoctoral Research Associate\
-Department of Civil and Environmental Engineering\
-University of Illinois Urbana-Champaign
+**Zixin Wang, Ph.D.**  
+Postdoctoral Research Associate  
+Department of Civil and Environmental Engineering  
+University of Illinois Urbana-Champaign  
+
+Email: [zixinw@illinois.edu](mailto:zixinw@illinois.edu)  
+Web: [https://zixinwang.web.illinois.edu/](https://zixinwang.web.illinois.edu/)
