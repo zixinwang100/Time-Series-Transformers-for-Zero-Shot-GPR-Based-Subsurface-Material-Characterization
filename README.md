@@ -106,6 +106,5 @@ Full bibliographic information will be added upon publication.
 Postdoctoral Research Associate  
 Department of Civil and Environmental Engineering  
 University of Illinois Urbana-Champaign
-
 Email: [zixinw@illinois.edu](mailto:zixinw@illinois.edu)  
 Web: [https://zixinwang.web.illinois.edu/](https://zixinwang.web.illinois.edu/)
