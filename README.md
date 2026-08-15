@@ -1,8 +1,8 @@
 # Time-Series Transformers for Zero-Shot GPR-Based Subsurface Material Characterization
 
-This repository provides the source code and experimental data
-associated with the manuscript **"Time-Series Transformers for Zero-Shot
-GPR-Based Subsurface Material Characterization."**
+This repository provides the source code and experimental data associated with the manuscript 
+**"Time-Series Transformers for Zero-Shot GPR-Based Subsurface Material Characterization"** 
+by Zixin Wang, Ishfaq Aziz, Adam C. Watts, and Mohamad Alipour.
 
 The study investigates the zero-shot generalization of time-series
 Transformer models for ground-penetrating radar (GPR)-based subsurface
@@ -84,7 +84,7 @@ provided within the `Data/` directory of each material configuration.
 ## Experimental Data
 
 Experimental GPR data are provided for the laboratory single-layer,
-laboratory two-layer, and field single-layer material configurations.
+laboratory two-layer, field single-layer, and field two-layer material configurations.
 The corresponding data files are located within the `Data/` directories
 of these configurations.
 
@@ -115,17 +115,7 @@ The PatchTST notebooks use the supporting implementation provided in
 
 If you use the code or data in this repository, please cite:
 
-**Z. Wang, I. Aziz, and M. Alipour, "Time-Series Transformers for
-Zero-Shot GPR-Based Subsurface Material Characterization."**
+**Zixin Wang, Ishfaq Aziz, Adam C. Watts, and Mohamad Alipour, 
+"Time-Series Transformers for Zero-Shot GPR-Based Subsurface Material Characterization."**
 
 Full bibliographic information will be added upon publication.
-
-## Contact
-
-**Zixin Wang, Ph.D.**\
-Postdoctoral Research Associate\
-Department of Civil and Environmental Engineering\
-University of Illinois Urbana-Champaign
-
-Email: <zixinw@illinois.edu>\
-Web: <https://zixinwang.web.illinois.edu/>
